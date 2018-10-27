@@ -27,6 +27,10 @@ module.exports.routes = {
   //  ╠═╣╠═╝║  ║╣ ║║║ ║║╠═╝║ ║║║║║ ║ ╚═╗
   //  ╩ ╩╩  ╩  ╚═╝╝╚╝═╩╝╩  ╚═╝╩╝╚╝ ╩ ╚═╝
 
+  'POST /drivung': "DrivungController.saveaddress",
+  'Get /rides': "DrivungController.getRides",
+  'Get /ride/accept': "DrivungController.acceptRide",
+  'Get /ride/deny': "DrivungController.denyRide",
 
 
   //  ╦ ╦╔═╗╔╗ ╦ ╦╔═╗╔═╗╦╔═╔═╗

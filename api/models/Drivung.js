@@ -16,8 +16,19 @@ module.exports = {
     address: {
       type: "string",
       required: true
+    },
+    vehicle: {
+      model: 'vehicle'
+    },
+    driverstried: {
+      type: "number",
+    },
+    location: {
+      type: "json"
+    },
+    trying: {
+      model: 'vehicle'
     }
-
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗
     //  ║╣ ║║║╠╩╗║╣  ║║╚═╗
     //  ╚═╝╩ ╩╚═╝╚═╝═╩╝╚═╝
